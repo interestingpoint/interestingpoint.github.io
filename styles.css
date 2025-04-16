@@ -4,7 +4,7 @@ body {
     padding-top: 60px; /* Height of your navbar */
   }
 .navbar {
-    background-color: #000000;
+    background-color: #5b1c87;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
