@@ -9,9 +9,9 @@ body {
     display: flex;
     justify-content: flex-end;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
     top: 0;
+    
     left: 0;
     z-index: 1000;
 }
@@ -52,6 +52,28 @@ body {
     left: 0;
     z-index: 1000;
 }
+
+.navbar3 {
+    background-color: #5b1c87;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.navbar3 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+
 .content {
     margin-top: 60px; /* Ensure content is not hidden under fixed menu */
     padding: 20px;
