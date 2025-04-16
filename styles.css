@@ -4,7 +4,7 @@ body {
     padding-top: 60px; /* Height of your navbar */
   }
 .navbar {
-    background-color: #5b1c87;
+    background-color: #ffffff;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
@@ -16,7 +16,7 @@ body {
     z-index: 1000;
 }
 .navbar a {
-    color: white;
+    color: rgb(27, 26, 26);
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     padding: 14px 20px;
