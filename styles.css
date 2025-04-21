@@ -69,7 +69,10 @@ body {
     display: inline-block;
     font-size: 12px;
 }
-
+.logo {
+    height: 30px;
+    width: auto;
+}
 .content {
     margin-top: 60px; /* Ensure content is not hidden under fixed menu */
     padding: 20px;
