@@ -6,7 +6,8 @@ body {
     background-color: #ffffff;
     overflow: hidden;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 0;
     width: 100%;
     top: 0;
@@ -72,6 +73,7 @@ body {
 .logo {
     height: 30px;
     width: auto;
+    margin-left: 10px;
 }
 .content {
     margin-top: 60px; /* Ensure content is not hidden under fixed menu */
