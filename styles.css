@@ -71,9 +71,9 @@ body {
     font-size: 12px;
 }
 .logo {
-    height: 50px;
+    height: 60px;
     width: auto;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .content {
     margin-top: 60px; /* Ensure content is not hidden under fixed menu */
