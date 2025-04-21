@@ -27,7 +27,7 @@ body {
 }
 
 .navbar2 a {
-    color: white;
+    color: rgb(27, 26, 26);
     text-decoration: none;
     padding: 14px 20px;
     display: inline-block;
@@ -39,7 +39,7 @@ body {
 }
 
 .navbar2 {
-    background-color: #000000;
+    background-color: #ffffff;
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
