@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px;
     padding: 5px 0;
     width: 100%;
     top: 0;
@@ -43,6 +44,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
+    border: 1px;
     padding: 10px 0;
     width: 100%;
     top: 0;
