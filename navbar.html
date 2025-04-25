@@ -6,13 +6,12 @@
         <a href="#">Location</a>
     </div>
 </nav>
-
 <nav class="navbar">
     <img src="content/images/logos/Craigslist-Symbol.png" alt="logo" class="logo">
     <div class="nav-links">
-        <form style=" border-radius:10px; border:2px solid #5b1c87" action="*">
+        <form id="searchbar" style="border-radius:10px; border:2px solid #5b1c87" onsubmit="searching(document.getElementById('bar').value);">
             <label>
-                <input style="width:500px; border:none; vertical-align:6px; font-size:14px;" placeholder="Search.." name="search">
+                <input id="bar" type="text" style="border-color:transparent; background-color:transparent; width:500px; vertical-align:auto; font-size:20px;" placeholder="Search..">
             </label>
             <button style="border-color:transparent; border-bottom-right-radius:5px; border-top-right-radius:5px; background-color:#5b1c87;" type="submit"><img style="background-color:#5b1c87;" width="25" height="25" alt="search" src="img/search.png"></button>
         </form>

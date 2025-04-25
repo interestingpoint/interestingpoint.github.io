@@ -27,7 +27,9 @@ body {
     border-radius: 5px;
 }
 
-
+text:focus, input:focus{
+    outline: none;
+}
 
 .navbar2 a {
     color: rgb(27, 26, 26);

@@ -6,6 +6,21 @@
   <title>Craigslist</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/x-icon" href="content/images/logos/craiglist-favicon.png">
+    <script>
+        function searching(input){
+            const categories = ["community", "housing", "resume", "gigs", "services", "jobs", "forsale", "forums"];
+            input = input.replaceAll(" ", "");
+            input = input.toLowerCase();
+            if (categories.includes(input)){
+                location.replace("../"+input+".html");
+                alert("Searching...");
+            }
+            else {
+                location.replace("../categories.html");
+                alert("Searching...");
+            }
+        }
+    </script>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
