@@ -23,7 +23,7 @@ body {
 }
 
 .navbar2 a:hover {
-    background-color: #ffffffc0;
+    background-color: #ffffff9e;
     border-radius: 5px;
 }
 
@@ -39,7 +39,7 @@ text:focus, input:focus{
     font-size: 15px;
 }
 .navbar a:hover {
-    background-color: #ffffffc0;
+    background-color: #ffffff9e;
     border-radius: 5px;
 }
 
