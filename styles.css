@@ -23,7 +23,7 @@ body {
 }
 
 .navbar2 a:hover {
-    background-color: #2d2d2b;
+    background-color: #ffffffd2;
     border-radius: 5px;
 }
 
@@ -34,12 +34,12 @@ text:focus, input:focus{
 .navbar2 a {
     color: rgb(27, 26, 26);
     text-decoration: none;
-    padding: 14px 90px;
+    padding: 14px 0;
     display: inline-block;
     font-size: 15px;
 }
 .navbar a:hover {
-    background-color: #2d2d2b;
+    background-color: #ffffffd2;
     border-radius: 5px;
 }
 
