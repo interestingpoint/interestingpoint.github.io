@@ -10,7 +10,7 @@
 
 <form id="Form2" action="../index.html" ></form>
 <form style="margin-top:50px; background-color:lightgrey; padding: 50px;" class="container w-50" action="../index.html">
-    <h2 style="padding-bottom:20px; text-align: center">Login</h2>
+    <h2 style="padding-bottom:20px; text-align: center">Create Account</h2>
 
     <div data-mdb-input-init class="form-outline mb-4 align-middle">
         <input required placeholder="example@mail.com" type="email" id="form2Example1" class="form-control" />
@@ -23,19 +23,21 @@
         <label class="form-label" for="form2Example2">Password</label>
     </div>
 
+    <div data-mdb-input-init class="form-outline mb-4 align-middle">
+        <input required type="tel" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="form2Example3" class="form-control" />
+        <label class="form-label" for="form2Example3">Phone Number</label>
+    </div>
 
-
-
+    <div data-mdb-input-init class="form-outline mb-4 align-middle">
+        <input type="checkbox" id="form2Example4" name="newsletter" value="letter">
+        <label for="form2Example4">Subscribe to our newsletter</label><br>
+    </div>
 
     <div class="d-flex justify-content-center">
         <div class="d-flex w-25 justify-content-between">
             <button type="submit" data-mdb-button-init data-mdb-ripple-init form="Form2" class="btn  btn-secondary btn-block mb-4">Back</button>
-            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn  btn-primary btn-block mb-4">Sign in</button>
+            <button type="submit" data-mdb-button-init data-mdb-ripple-init class="btn  btn-primary btn-block mb-4">Create Account</button>
         </div>
-    </div>
-
-    <div class="text-center">
-        <p>Not a member? <a href="create-account.html">Register</a></p>
     </div>
 </form>
 </body>
