@@ -13,12 +13,12 @@
             input = input.replaceAll(" ", "");
             input = input.toLowerCase();
             if (categories.includes(input)){
-                location.replace("../pages/"+input+".html");
-                alert("Searching...");
+                window.location.assign("../pages/"+input+".html");
+                alert("Click Ok to continue the search");
             }
             else {
-                location.replace("../pages/categories.html");
-                alert("Searching...");
+                window.location.assign("../pages/categories.html");
+                alert("Click Ok to continue the search");
             }
         }
     </script>
