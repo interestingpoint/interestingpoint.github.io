@@ -34,7 +34,7 @@ text:focus, input:focus{
 .navbar2 a {
     color: rgb(27, 26, 26);
     text-decoration: none;
-    padding: 14px 14px;
+    padding: 14px 50px;
     display: inline-block;
     font-size: 15px;
 }
