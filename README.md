@@ -7,4 +7,11 @@ Contributions:
 
 - Samuel Lunnemann
   Contributions:
-  
+  - helped format nav bar
+  - made search bar script
+  - login page
+  - new account page
+  - FAQ page
+  - new post page
+  - thank you page
+  - debugging
