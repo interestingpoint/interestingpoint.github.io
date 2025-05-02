@@ -1,6 +1,8 @@
 # INF286Final
 Final project for INF286
   We redisigned https://cincinnati.craigslist.org/
+  Github Link: https://github.com/interestingpoint/interestingpoint.github.io
+  Website URL: https://interestingpoint.github.io/
 
 Project Members:
 - Aaron Milner
