@@ -1,5 +1,6 @@
 # INF286Final
 Final project for INF286
+  We redisigned https://cincinnati.craigslist.org/
 
 Project Members:
 - Aaron Milner
@@ -27,7 +28,7 @@ Project Members:
   - new post page
   - thank you page
   - debugging
-  - Categories
+  - Categories:
     - services
     - for sale
 
