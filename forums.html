@@ -13,11 +13,11 @@
                 input = input.replaceAll(" ", "");
                 input = input.toLowerCase();
                 if (categories.includes(input)){
-                    window.location.assign("../pages/"+input+".html");
+                    window.location.assign(input+".html");
                     alert("Click Ok to continue the search");
                 }
                 else {
-                    window.location.assign("../pages/categories.html");
+                    window.location.assign("categories.html");
                     alert("Click Ok to continue the search");
                 }
             }
