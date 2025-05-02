@@ -29,3 +29,6 @@ Project Members:
   - new post page
   - thank you page
   - debugging
+
+Web Structure:
+  All pages on our website can be accessed within 3 clicks, following the 3-click-rule. We made sure to keep the flow of the pages clean and consitant. Account login and cretion is accessed via login found within the NavBar. The search bar will navigate the user to the selected page if it exists; if not it will route them to the categories page which lists all of the active categories. Each page, besides login & post ad related, contain the NavBar to allow for easy movement through the website. 
