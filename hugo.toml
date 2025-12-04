@@ -1,0 +1,28 @@
+baseURL = 'https://interestingpoint.github.io'
+languageCode = 'en-us'
+title = 'Eurydice Lunnemann - Software Developer'
+theme = 'ananke'
+
+[params]
+  author = "Eurydice Lunnemann"
+  description = "Full-stack developer"
+  github = "https://github.com/interestingpoint"
+  email = "eurydicelunnemann@gmail.com"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Projects" 
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
