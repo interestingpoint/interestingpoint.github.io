@@ -75,7 +75,6 @@ sudo bash run.sh
 # The APIs can be started with "composer run apis"
 ```
 
-## Links
+## Link
 
-- **GitHub Repository**: [github.com/yourusername/project2](https://github.com/yourusername/project2.git)
-- **Documentation**: [docs.yourdomain.com](https://docs.yourdomain.com)
+- **GitHub Repository**: [github.com/interestingpoint/project2](https://github.com/interestingpoint/project2.git)
